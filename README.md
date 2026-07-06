@@ -10,7 +10,7 @@ A pixel-styled font family with four styles: Regular, Bold, Italic, and Bold Ita
 Catwalk covers the Latin alphabet, digits, core punctuation, brackets, common symbols,
 currency signs, fractions, math operators, and arrows.
 
-🔗 **[Visit the Catwalk site](https://dawsmacs.github.io/Catwalk/)**
+🌐 **[Visit Our Site!](https://dawsmacs.github.io/Catwalk/)**
 
 ## Design Philosophy
 
