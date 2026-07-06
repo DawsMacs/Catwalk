@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catwalk — a pixel-styled retro font</title>
+<meta name="description" content="Catwalk is a highly readable retro-themed pixel font, free and open source.">
+<style>
+  @font-face {
+    font-family: 'Catwalk';
+    src: url('Catwalk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Catwalk';
+    src: url('Catwalk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Catwalk';
+    src: url('Catwalk-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Catwalk';
+    src: url('Catwalk-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  :root {
+    --base: #1e1e2e;
+    --crust: #11111b;
+    --mantle: #181825;
+    --text: #cdd6f4;
+    --subtext: #a6adc8;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --peach: #fab387;
+    --maroon: #eba0ac;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--base);
+    color: var(--text);
+    font-family: 'Catwalk', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  header {
+    width: 100%;
+    max-width: 900px;
+    padding: 24px 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  header a {
+    color: var(--subtext);
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  header a:hover { color: var(--text); }
+
+  .hero {
+    text-align: center;
+    padding: 60px 20px 40px;
+    max-width: 900px;
+  }
+
+  .cat-banner {
+    max-width: 100%;
+    width: 480px;
+    image-rendering: pixelated;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 10vw, 5rem);
+    margin: 0 0 10px;
+    color: var(--peach);
+    letter-spacing: 2px;
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+    color: var(--subtext);
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 2px solid var(--mauve);
+    transition: transform 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+
+  .btn-primary {
+    background: var(--mauve);
+    color: var(--crust);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--mauve);
+  }
+
+  section.specimen {
+    width: 100%;
+    max-width: 900px;
+    padding: 40px 20px 80px;
+  }
+
+  section.specimen h2 {
+    color: var(--pink);
+    border-bottom: 2px solid var(--mantle);
+    padding-bottom: 10px;
+  }
+
+  .type-row {
+    font-size: 1.8rem;
+    margin: 18px 0;
+    word-break: break-word;
+  }
+
+  .type-row.bold { font-weight: 700; }
+  .type-row.italic { font-style: italic; }
+  .type-row.bolditalic { font-weight: 700; font-style: italic; }
+
+  .label {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    color: var(--subtext);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  footer {
+    color: var(--subtext);
+    font-size: 0.9rem;
+    padding-bottom: 30px;
+  }
+  footer a { color: var(--mauve); }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="https://github.com/DawsMacs/Catwalk" target="_blank" rel="noopener">🐈 Catwalk on GitHub</a>
+</header>
+
+<div class="hero">
+  <h1>Catwalk</h1>
+  <p class="tagline">
+    Catwalk is a highly readable retro-themed font, available for anyone to use 💖
+    Make it yours, keeping your feline aesthetic anywhere ✨ Catwalk Away...🐈
+  </p>
+  <div class="buttons">
+    <a class="btn btn-primary" href="https://github.com/DawsMacs/Catwalk" target="_blank" rel="noopener">View on GitHub</a>
+    <a class="btn btn-secondary" href="https://github.com/DawsMacs/Catwalk/archive/refs/heads/main.zip">Download</a>
+  </div>
+</div>
+
+<section class="specimen">
+  <h2>Specimen</h2>
+
+  <div class="label">Regular</div>
+  <div class="type-row">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+  <div class="type-row">abcdefghijklmnopqrstuvwxyz</div>
+  <div class="type-row">0123456789 .,;:!?'" ()[]{}&lt;&gt;</div>
+
+  <div class="label">Bold</div>
+  <div class="type-row bold">The quick brown fox jumps over the lazy cat.</div>
+
+  <div class="label">Italic</div>
+  <div class="type-row italic">The quick brown fox jumps over the lazy cat.</div>
+
+  <div class="label">Bold Italic</div>
+  <div class="type-row bolditalic">The quick brown fox jumps over the lazy cat.</div>
+</section>
+
+<img class="cat-banner" src="banner_v2.png" alt="Catwalk pixel cat banner" style="margin-bottom: 20px;">
+
+<footer>
+  Licensed under the SIL Open Font License 1.1 · <a href="https://github.com/DawsMacs/Catwalk" target="_blank" rel="noopener">github.com/DawsMacs/Catwalk</a>
+</footer>
+
+</body>
+</html>
