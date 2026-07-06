@@ -31,7 +31,7 @@ cp *.ttf ~/.local/share/fonts/
 fc-cache -f
 ```
 
-**BSD (FreeBSD, OpenBSD, NetBSD):**
+**BSD (FreeBSD, OpenBSD, NetBSD, etc.):**
 ```sh
 mkdir -p ~/.local/share/fonts
 cp *.ttf ~/.local/share/fonts/
