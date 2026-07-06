@@ -2,8 +2,8 @@
 
 ![Catwalk banner](banner_v2.png)
 
-Catwalk is a highly readable retro-themed font, available for anyone to use! Make it yours,
-keeping your feline aesthetic anywhere ✨. Catwalk Away...🐈
+Catwalk is a highly readable retro-themed font, available for anyone to use 💖 Make it yours,
+keeping your feline aesthetic anywhere ✨ Catwalk Away...🐈
 
 A pixel-styled font family with four styles: Regular, Bold, Italic, and Bold Italic.
 
