@@ -31,6 +31,14 @@ cp *.ttf ~/.local/share/fonts/
 fc-cache -f
 ```
 
+**BSD (FreeBSD, OpenBSD, NetBSD):**
+```sh
+mkdir -p ~/.local/share/fonts
+cp *.ttf ~/.local/share/fonts/
+fc-cache -f
+```
+For a system-wide install instead, copy into `/usr/local/share/fonts/`.
+
 **macOS:** double-click each `.ttf` and choose "Install Font."
 
 **Windows:** right-click each `.ttf` and choose "Install."
