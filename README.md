@@ -8,9 +8,6 @@ A pixel-styled font family with four styles: Regular, Bold, Italic, and Bold Ita
 Catwalk covers the Latin alphabet, digits, core punctuation, brackets, common symbols,
 currency signs, fractions, math operators, and arrows.
 
-Each glyph outline was independently traced by hand from scratch into fresh vector
-contours — the font file itself is original, freshly generated software.
-
 ## Preview
 
 ![Catwalk specimen](specimen.png)
