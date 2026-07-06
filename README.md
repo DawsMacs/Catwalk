@@ -25,13 +25,13 @@ currency signs, fractions, math operators, and arrows.
 
 Copy the `.ttf` files into your system's font directory and refresh the font cache.
 
-**Linux:**
+**🐧 Linux:**
 ```sh
 cp *.ttf ~/.local/share/fonts/
 fc-cache -f
 ```
 
-**BSD (FreeBSD, OpenBSD, NetBSD, etc.):**
+**😈 BSD (FreeBSD, OpenBSD, NetBSD, etc.):**
 ```sh
 mkdir -p ~/.local/share/fonts
 cp *.ttf ~/.local/share/fonts/
@@ -39,9 +39,9 @@ fc-cache -f
 ```
 For a system-wide install instead, copy into `/usr/local/share/fonts/`.
 
-**macOS:** double-click each `.ttf` and choose "Install Font."
+**🍎 macOS:** double-click each `.ttf` and choose "Install Font."
 
-**Windows:** right-click each `.ttf` and choose "Install."
+**🪟 Windows:** right-click each `.ttf` and choose "Install."
 
 ## License
 
