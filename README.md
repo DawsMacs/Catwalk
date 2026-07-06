@@ -1,5 +1,8 @@
 # Catwalk
 
+Catwalk is a readable retro-themed font, available for anyone to use! Make it yours,
+keeping your aesthetic anywhere. Catwalk Away! 🐈
+
 A pixel-styled font family with four styles: Regular, Bold, Italic, and Bold Italic.
 
 Catwalk covers the Latin alphabet, digits, core punctuation, brackets, common symbols,
